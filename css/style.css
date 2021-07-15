@@ -1,0 +1,39 @@
+.body {
+  color: #212121;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Логотип */
+
+.logo-blue {
+  color: #2196f3;
+}
+.logo-black {
+  color: #212121;
+}
+
+/* Навигация ссылки */
+
+.header-nav .link {
+  color: #212121;
+}
+.header-nav .link:hover,
+.header-nav .link:focus {
+  color: #2196f3;
+}
+
+.auth-nav {
+  color: #757575;
+}
+
+/* Section 2 */
+.group h3 {
+  color: #212121;
+}
+
+.group p {
+  color: #757575;
+}
