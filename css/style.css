@@ -30,10 +30,16 @@
 }
 
 /* Section 2 */
-.group h3 {
+
+.special-title {
   color: #212121;
 }
 
-.group p {
+.special-text {
   color: #757575;
+}
+.special-image {
+  width: 240px;
+  height: 120px;
+  background-color: #f5f4fa;
 }
