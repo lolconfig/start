@@ -1,5 +1,17 @@
+/* Основные шрифты */
+:root {
+  --primary-text-color:#212121;
+  --accent-color:#2196f3;
+  --secondary-text-color:#757575;
+  --main-bg-color:#ffffff;
+  --spacial-bg-color:#f5f4fa;
+
+}
+
+
 .body {
-  color: #212121;
+  color: var(--primary-text-color);
+  color: var(--main-bg-color);
 }
 
 .list {
@@ -9,37 +21,70 @@
 /* Логотип */
 
 .logo-blue {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo-black {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 /* Навигация ссылки */
 
 .header-nav .link {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .header-nav .link:hover,
 .header-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-.auth-nav {
-  color: #757575;
+.auth-nav .link{
+  color: var(--secondary-text-color);
 }
 
-/* Section 2 */
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+/* Особености */
 
 .special-title {
-  color: #212121;
+  color: var(--primary-text-color);
+  size: 36px;
 }
 
 .special-text {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .special-image {
   width: 240px;
   height: 120px;
-  background-color: #f5f4fa;
+  background-color: var(--spacial-bg-color);
 }
+
+.section-title {
+  color: var(--primary-text-color)
+  size:36px;
+}
+/* Чем мы занимаемся */
+
+
+/* Наша команда */
+.team-title {
+  color: var(--primary-text-color);
+  size: 16px;
+}
+
+.team-section p {
+  color: var(--secondary-text-color);
+}
+.social .link {
+  color: var(--primary-text-color);
+}
+
+.social .link:hover,
+.social .link:focus {
+  color: var(--accent-color);
+/* Постоянные клиенты */
+
+
+/* футер */
